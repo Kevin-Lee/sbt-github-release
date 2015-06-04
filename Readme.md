@@ -1,5 +1,7 @@
 ## Sbt Github release plugin
 
+[![Build Status](https://semaphoreci.com/api/v1/projects/44015f0c-aaca-4448-8436-99f29b64439b/442906/badge.svg)](https://semaphoreci.com/kevin-lee/sbt-github-release)
+
 This is a simple sbt-plugin for creating [Github releases](https://github.com/blog/1547-release-your-software) with proper release notes and optional artifact uploading using [kohsuke/github-api](https://github.com/kohsuke/github-api) library.
 
 It can be useful as a part of [automated release process](https://github.com/sbt/sbt-release).
