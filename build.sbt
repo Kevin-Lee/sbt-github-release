@@ -33,15 +33,12 @@ pomExtra := (
       <connection>scm:git:git@github.com:Kevin-Lee/sbt-github-release.git</connection>
     </scm>)
 
-import bintray.Keys._
 import ohnosequences.sbt.SbtGithubReleasePlugin._
 import org.apache.commons.io.filefilter.WildcardFileFilter
 
 licenses += ("AGPL-V3", url("http://www.gnu.org/licenses/agpl-3.0.en.html"))
 
-Seq(bintrayPublishSettings:_*)
-
-repository in bintray := "maven"
+bintrayRepository := "maven"
 
 
 val projectVersion = "0.2.2"

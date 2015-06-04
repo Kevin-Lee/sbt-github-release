@@ -10,4 +10,4 @@ resolvers += "Github-API" at "http://repo.jenkins-ci.org/public/"
 
 addSbtPlugin("ohnosequences" % "sbt-github-release" % "0.2.1")
 
-addSbtPlugin("me.lessis" % "bintray-sbt" % "0.2.1")
+addSbtPlugin("me.lessis" % "bintray-sbt" % "0.3.0")
